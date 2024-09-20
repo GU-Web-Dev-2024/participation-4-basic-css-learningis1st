@@ -5,10 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Participation 4. Basic CSS</title>
+    <!-- External Style Sheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Embedded -->
+    <style>
+        .box {
+            padding: 20px;
+            background-color: lightgray;
+            text-align: center;
+        }
+
+        .box button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+        }
+
+        .box button:hover {
+            background-color: darkgreen;
+        }
+    </style>
 </head>
 
-<body>
-    <h1>Participation 4. Basic CSS</h1>
+<body style="background-color: #f0f0f0;"> <!-- Inline -->
+<h1 style="color: blue;">Participation 4. Basic CSS</h1> <!-- Inline -->
+
+<div class="box">
+    <p>Click the button!</p>
+    <button>Click me</button>
+</div>
+
+<p style="color: red;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptates.</p> <!-- Inline -->
+<p style="color: green;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptates.</p> <!-- Inline -->
+<p style="color: blue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptates.</p> <!-- Inline -->
+<p style="color: orange;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptates.</p> <!-- Inline -->
+<p style="color: purple;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptates.</p> <!-- Inline -->
+<p style="color: brown;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptates.</p> <!-- Inline -->
+
 </body>
 
 </html>
